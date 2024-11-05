@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container" id="welcomePage">
+            <h1>I have a random number between 1 and 20</h1>
+            <button onclick="startGame()">Click to guess</button>
+        </div>
+
+        <div class="container1" id="startGame">
+            <div class="again">
+                <button>Again!</button>
+                <h4>(Between 1 and 20)</h4>
+            </div>
+            <h1>Guess My Number!</h1>
+            <div class="line"></div>
+            <div class="countBox">?</div>
+            <div class="inputSection">
+                <div class="input">
+                    <input type="text">
+                    <button>Check!</button>
+                </div>
+                <div class="guess">
+                    <h2>Start Guessing......</h2>
+                    <div class="score">
+                        <h2>Score: <span>20</span></h2>
+                        <h2>Highscore: <span>0</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
